@@ -1,16 +1,31 @@
-#include <stdio.h>
-#include "main.h"  // Include your main header file here
+#include "main.h"
 
-void jack_bauer(void) {
-    for (int hour = 0; hour < 24; hour++) {
-        for (int minute = 0; minute < 60; minute++) {
-            printf("%.2d:%.2d\n", hour, minute);
-        }
-    }
+/**
+ * jack_bauer -prints every minute of the day
+ *
+ * Return: Always 0.
+ */
+
+void jack_bauer(void)
+
+{
+int a;
+int b;
+
+for (a = 0; a <= 23; a++)
+{
+for (b = 0; b <= 59; b++)
+{
+_putchar (a / 10 + '0');
+_putchar (a % 10 + '0');
+_putchar (':');
+_putchar (b / 10 + '0');
+_putchar (b % 10 + '0');
+_putchar ('\n');
+
 }
 
-int main() {
-    jack_bauer();  // Call the function to print the minutes of the day
-    return 0;
+
 }
 
+}
