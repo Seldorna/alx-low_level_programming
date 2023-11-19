@@ -1,17 +1,17 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * factorial - Returns the factorial of a given number.
-* @i: The number to calculate the factorial of.
+* @r: The number to calculate the factorial of.
 *
-* Return: The factorial of i, or 1 if i is 0.
+* Return: The factorial of r, or 1 if r is 0.
 */
-int factorial(int i)
+int factorial(int r)
 {
-if (i <= 1)
+if (r <= 1)
 return (1);
 else
-return (i * factorial(i - 1));
+return (r * factorial(r - 1));
 }
 /**
 * main - check the code for Holberton School students.
@@ -20,9 +20,9 @@ return (i * factorial(i - 1));
 */
 int main(void)
 {
-int i = 8;
+int r = 8;
 
-printf("Factorial of %d is %d\n", i, factorial(i));
+printf("Factorial of %d is %d\n", r, factorial(r));
 return (0);
 }
 
