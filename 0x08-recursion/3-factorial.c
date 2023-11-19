@@ -13,11 +13,10 @@ return (1);
 else
 return (i * factorial(i - 1));
 }
-
 /**
-* main - Entry point
+* main - check the code for Holberton School students.
 *
-* Return: Always 0 (Success)
+* Return: Always 0.
 */
 int main(void)
 {
