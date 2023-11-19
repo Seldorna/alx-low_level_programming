@@ -13,16 +13,4 @@ return (1);
 else
 return (r * factorial(r - 1));
 }
-/**
-* main - check the code for Holberton School students.
-*
-* Return: Always 0.
-*/
-int main(void)
-{
-int r = 8;
-
-printf("Factorial of %d is %d\n", r, factorial(r));
-return (0);
-}
 
