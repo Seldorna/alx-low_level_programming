@@ -19,4 +19,4 @@ task-5(advanced)
 Write a function that concatenates all the arguments of your program.
 
 task-6(advanced)
-Write a function that splits a string into words.
+Write a function that splits a string into words..
